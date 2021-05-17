@@ -40,7 +40,7 @@ def test_room3():
     game_over("Go and learn how to type a number.")
 
 def test_room2():
-  print("\nYour stuck in a city due to pandemic and \nyour family stays in another city.")
+  print("\nYou're stuck in a city due to pandemic and \nyour family stays in another city.")
   print("Now its been a year what would you choose to do (1 or 2)")
   print("1). You getting vaccinated and then go to meet them with all precautions?")
   print("2). You still not wish to get vaccinated and reach there risking your family's safety.")

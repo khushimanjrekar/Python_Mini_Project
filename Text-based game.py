@@ -78,7 +78,7 @@ def start():
   name = input("Enter your name : ")
 
   print("Welcome to the New Normal!,", name)
-  print("Beware this is a game, vaccination is guranteed unlike reality!")
+  print("Beware this is a game, vaccination is guaranteed unlike reality!")
   print("Do you wish to take a vaccine? (yes or no)")
   answer = input(":-").lower()
 

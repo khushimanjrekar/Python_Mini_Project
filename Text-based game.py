@@ -14,7 +14,7 @@ def game_over(reason):
   print("Clean your hands often. Use soap and water, or an alcohol-based hand rub.\nMaintain a safe distance from anyone who is coughing or sneezing.")
   print("Wear a mask when physical distancing is not possible.\nDon’t touch your eyes, nose or mouth.")
   print("Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.\nStay home if you feel unwell.")
-  print("If you have a fever, cough and difficulty breathing, seek medical attention.")
+  print("If you have  fever, cough and difficulty in breathing, seek medical attention.")
   play_again()
 
 def test_room3():
@@ -29,7 +29,7 @@ def test_room3():
   answer = input(":-")
   
   if answer == "1":
-    game_over("All that gilters is not gold! \nProbably,your preference was towards the golden box and not the vaccine \nHence you have chosen the wrong box")
+    game_over("All that gliters is not gold! \nProbably,your preference was towards the golden box and not the vaccine \nHence you have chosen the wrong box")
   elif answer == "2":
     game_over("\nYou should not be materialistic in your choice!\nProbably,your preference was towards the silver box and not the vaccine\nYou have chosen the wrong box")
   elif answer == "3":
@@ -58,7 +58,7 @@ def test_room2():
 
 def test_room1():
   print("\nToday it's your friends Birthday.")
-  print("He's inviting you for a birthday Party.")
+  print("He's inviting you for a Birthday Party.")
   print("But as we all know we're in a pandemic!")
   print("What would you do? (1 or 2)")
   print("1). Go to the party with all precautions.")
